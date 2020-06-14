@@ -41,10 +41,7 @@ Widget _introScreen() {
         gradientBackground: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
-          colors: [
-            Color(0xffED213A),
-            Color(0xff93291E)
-          ],
+          colors: [Color(0xffED213A), Color(0xff93291E)],
         ),
         navigateAfterSeconds: HomeScreen(),
         loaderColor: Colors.transparent,
@@ -52,7 +49,7 @@ Widget _introScreen() {
       Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/logo.png"),
+            image: AssetImage("assets/mpa.png"),
             fit: BoxFit.none,
           ),
         ),
